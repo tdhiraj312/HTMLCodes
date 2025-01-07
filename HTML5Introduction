@@ -1,0 +1,17 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>My Page</title>  
+</head>  
+<body style="background-color: cornflowerblue">  
+    <h1 style="color:red"><u>Introduction</u></h1>  
+    <p1><b>Hello, my nme is Dhiraj Thakur. I live in Gurgaon, I'm a final year BCA student studying in Manipal University Jaipur.</b></p1> 
+    <br>
+    <p2><b>My subjects are listed below:</b></p2> 
+    <br>
+    <h2 style="color: burlywood">Python</h2>
+    <h3 style="color: burlywood">HTML5</h3>
+    <h4 style="color: burlywood">CSS</h4>
+    <h5 style="color: burlywood">JavaScript</h5>
+</body>  
+</html>  
