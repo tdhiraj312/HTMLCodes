@@ -1,0 +1,77 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>My Page</title>  
+</head>  
+<meta charset="UTF-8">
+<style>
+    table{
+        border: solid black;
+    }
+
+    th,td{
+        border: solid black;
+        color: chartreuse;
+        padding: 20px;
+    }
+    ol {
+        color: brown;
+    }
+    ul {
+        color: yellow; font-size: larger; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body{
+        background-color: cornflowerblue;
+    }
+    h1{
+        color:red;
+    }
+    h2,h3,h4{
+        color: burlywood; font-family: 'Calibri';
+    }
+    a{
+        color: brown" target="_blank;
+    }
+</style>
+<body>  
+    <h1><u>Introduction</u></h1>  
+    <p1><b>Hello, my nme is Dhiraj Thakur. I live in Gurgaon, I'm a final year BCA student studying in Manipal University Jaipur.</b></p1> 
+    <br>
+    <p2><b>My subjects are listed below:</b></p2> 
+    <br>
+    <hr>
+    <a href="https://www.javatpoint.com/python-tutorial"><h2>Python</h2></a>
+    <a href="https://www.javatpoint.com/html-tutorial" target="_self"><h3>HTML5</h3></a>
+    <a href="https://www.w3schools.com/css/default.asp" target="_blank"><h4>CSS</h4></a>
+    <hr>
+    <img src="..\HTMLCSS\MY_Photo.jpg" alt="manish photo" height="180" width="120">
+    <img src="C:\Users\manish.thakur\OneDrive - S&P Global\Documents\juhi.jpg" alt="juhi photo" height="180" width="120">
+    <hr>
+    <p>Seven Days of the week are as follows: [An example of ordered list]</p>
+    <ol>
+        <li>Mon</li>
+        <li>Tue</li>
+        <li>Wed</li>
+        <li>Thu</li>
+        <li>Fri</li>
+        <li>Sat</li>
+        <li>Sun</li>
+    </ol>
+    <hr>
+    <p>Five Vowels of English Alphabet: [An example of unordered list]</p>
+    <ul>
+        <li>A</li>
+        <li>E</li>
+        <li>I</li>
+        <li>O</li>
+        <li>U</li>
+    </ul>
+    <hr>
+    <table>
+        <tr><th>FirstName</th><th>LastName</th><th>Marks</th></tr>
+        <tr><td>Dhiraj</td><td>Thakur</td><td>75</td></tr>
+        <tr><td>Manish</td><td>Thakur</td><td>60</td></tr>
+        <tr><td>Priyanka</td><td>Thakur</td><td>85</td></tr>
+    </table>
+</body>  
+</html>  
