@@ -7,8 +7,10 @@
     <script type="text/javascript" src="js1.js"></script>
 </head>
 <body>  
-    <h1 id="intro">Introduction</h1>  
-    <p class="summary">Hello, my nme is Dhiraj Thakur. I live in Gurgaon, I'm a final year BCA student studying in Manipal University Jaipur.</p> 
+    <h1 id="intro" onclick="fun1()">Introduction</h1> 
+
+    <p id="summary" onclick="fun2()">Hello, my name is Dhiraj Thakur. I live in Gurgaon, I'm a final year BCA student studying in Manipal University Jaipur.</p>
+   
     <marquee><p class="subjects">My subjects are listed below:</p></marquee>
     <hr>
     <a href="https://www.javatpoint.com/python-tutorial"><h2>Python</h2></a>
@@ -44,29 +46,24 @@
         <tr><td>Manish</td><td>Thakur</td><td>60</td></tr>
         <tr><td>Priyanka</td><td>Thakur</td><td>85</td></tr>
     </table>
-
-    <!--JavascriptExample-->
-    <!--<p id="demo">JavaScript can change the style of an HTML element.</p>  
-
+    <hr>
+    <p id="demo">JavaScript can change the style of an HTML element.</p>  
     <button type="button" onclick="myFunction()">Click Me!</button> 
 
-    <script>  
-    function myFunction() {  
-        document.getElementById("demo").style.fontSize = "25px";   
-        document.getElementById("demo").style.color = "brown";  
-        document.getElementById("demo").style.backgroundColor = "lightgreen";         
-    }  
-    </script>  -->
-
-     <!--Forms-->
+    <hr>
      <form onsubmit="fun()">  
         <label>Enter your name:</label><br>  
         <input type="text" name="uname" id="frm1"><br>  
       <label>Enter your Email-address:</label><br>    
-        <input type="email" name="email"><br>  
+        <input type="email" name="email"><br>
+      <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male">Male<br>  
+        <input type="radio" name="gender" value="FeMale">Female<br><br> 
      <input type="submit">  
     </form>  
-     <!---->
+
+    <hr>
+    
     
 </body>  
 </html>  
