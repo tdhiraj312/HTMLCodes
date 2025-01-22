@@ -20,3 +20,13 @@ function myFunction() {
     document.getElementById("demo").style.backgroundColor = "lightgreen";   
     document.getElementById("demo").innerHTML = "Dhiraj Thakur";        
 }
+
+let stylesmain = 'filter: blur(5px)';
+
+function fun4(){
+    document.getElementById("juhi").style = stylesmain;
+}
+
+function fun5(){
+    document.getElementById("juhi2").style = stylesmain;
+}
